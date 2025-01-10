@@ -2,11 +2,11 @@ import requests
 import json
 
 # Replace with your actual Steam API key and Steam ID
-API_KEY = 'BA19025B55523072CBB35C5E2A0BA02A'
-STEAM_ID = 76561199560696871
+API_KEY = 'Private API Key'
+STEAM_ID = 'Private Steam ID'
 
 def get_owned_games(api_key, steam_id):
-    url = 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/'
+    url = 'Private URL'
     params = {
         'key': api_key,
         'steamid': steam_id,
