@@ -68,14 +68,22 @@ def analyze_basic_stats(df):
     print(recently_played[['name', 'last_played_date']])
 
 def visualize_playtime_distribution(df):
-    """Visualize the distribution of playtime."""
+    """Visualize the distribution of playtime with clearer x-axis labels."""
     plt.figure(figsize=(8, 6))
     sns.histplot(df['playtime_forever_hours'], bins=15, kde=True, color='steelblue')
     plt.title('Distribution of Total Playtime Across Games')
     plt.xlabel('Playtime (hours)')
     plt.ylabel('Frequency')
-    plt.ylim(0, 5)  # Set the y-axis limits
+
+    # Set the x-axis range to include zero and enhance clarity
+    plt.xlim(-10, max(df['playtime_forever_hours']) + 10)
+    plt.xticks(range(0, int(max(df['playtime_forever_hours']) + 20), 10))  # Set ticks every 10 hours
+    
+    plt.ylim(0, 5)  # Keep the y-axis limits
+    plt.grid(axis='x', linestyle='--', alpha=0.7)  # Add a grid for better readability
+    plt.tight_layout()
     plt.show()
+
 
 
 def visualize_top_games(df):
