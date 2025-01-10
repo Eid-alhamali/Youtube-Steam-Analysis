@@ -62,6 +62,7 @@ The analysis involved various stages and utilized several technologies and techn
 ### Hypothesis 1: Gaming Preference
 **Null Hypothesis (H₀):** I play online games and story mode games equally.  
 **Alternative Hypothesis (H₁):** I play story mode games more than online games.
+
 ![image](https://github.com/user-attachments/assets/0e20f209-493f-4861-a3ac-0870ee5e2131)
 
 
@@ -80,6 +81,7 @@ Since the P-value is less than 0.05, we reject the null hypothesis. This result 
 ### Hypothesis 2: Seasonal Playtime
 **Null Hypothesis (H₀):** My playing time is uniformly distributed throughout the year.  
 **Alternative Hypothesis (H₁):** My playing time is higher during January, February, July, and August (holidays).
+
 ![image](https://github.com/user-attachments/assets/30911671-08a9-4690-b440-c9f558baf836)
 
 
@@ -98,6 +100,7 @@ Since the P-value is less than 0.05, we reject the null hypothesis. This result 
 ### Hypothesis 3: Gaming Purchases
 **Null Hypothesis (H₀):** I play all the games I buy.  
 **Alternative Hypothesis (H₁):** I do not play all the games I buy.
+
 ![image](https://github.com/user-attachments/assets/dcb3187d-3b03-441f-be21-047774d34b02)
 
 
@@ -120,18 +123,23 @@ Since the P-value is greater than 0.05, we fail to reject the null hypothesis. T
 Graphs for each game:
 
 **Cyberpunk 2077**
+
 ![image](https://github.com/user-attachments/assets/3faf0fbc-c981-48a1-a4db-1d03cd9044f3)
 
 **Dark Souls III**
+
 ![image](https://github.com/user-attachments/assets/69ff2511-d508-4e0e-89b8-fd0e08d4272e)
 
 **EA SPORTS FC™ 24** 
+
 ![image](https://github.com/user-attachments/assets/6ea5223f-cf13-46cb-bb2b-7a15b90b916a)
 
 **Red Dead Redemption 2**
+
 ![image](https://github.com/user-attachments/assets/630e032c-44a8-46d2-87db-43e553a82b74)
 
 **The Witcher 3** 
+
 ![image](https://github.com/user-attachments/assets/de424103-4cd4-463f-ad9e-0ae16edc4ac4)
 
 
