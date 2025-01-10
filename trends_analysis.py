@@ -1,8 +1,8 @@
 from scipy.stats import ttest_ind
 
 # Holiday and non-holiday playtimes
-holiday_playtime = [140, 120, 40, 140]  # Replace with actual data
-non_holiday_playtime = [100, 80, 60, 20, 60, 80, 40, 10]  # Replace with actual data
+holiday_playtime = [140, 120, 40, 140]
+non_holiday_playtime = [100, 80, 60, 20, 60, 80, 40, 10]
 
 # Perform independent t-test
 t_stat, p_value = ttest_ind(holiday_playtime, non_holiday_playtime, alternative='greater')
